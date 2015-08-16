@@ -1,0 +1,17 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    <form action="@routes.Application.addPerson()" method="post">
+        <input name="name" type="text">
+        <input name="dob" type="date">
+        <input name="address" type="text">
+        <button>Add Person</button>
+    </form>
+
+    <form action=@routes.Application.createAccount() method="post">
+        <input name="username" type="text">
+        <input name="password" type="text">
+        <button>Make an Account!</button>
+    </form>
+}
