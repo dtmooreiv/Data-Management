@@ -1,3 +1,6 @@
+##
+Work in progress, but temporarily on hold.
+
 This is your new Play application
 =================================
 
